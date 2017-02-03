@@ -5,3 +5,6 @@
 /mksh/src/edit.c filter=lfs diff=lfs merge=lfs -text
 /libs/utils/ResourceTypes.cpp filter=lfs diff=lfs merge=lfs -text
 /adb/sysdeps_win32.cpp filter=lfs diff=lfs merge=lfs -text
+/libziparchive/testdata/large.zip filter=lfs diff=lfs merge=lfs -text
+/libziparchive/testdata/dummy-update.zip filter=lfs diff=lfs merge=lfs -text
+/liblog/tests/liblog_test.cpp filter=lfs diff=lfs merge=lfs -text
