@@ -14,3 +14,4 @@
 /libbacktrace/testdata/arm/libandroid_runtime.so filter=lfs diff=lfs merge=lfs -text
 /libbacktrace/testdata/arm/libGLESv2_adreno.so filter=lfs diff=lfs merge=lfs -text
 /libunwindstack/tests/files/offline/gnu_debugdata_arm32/libandroid_runtime.so filter=lfs diff=lfs merge=lfs -text
+/libbacktrace/testdata/arm64/libskia.so filter=lfs diff=lfs merge=lfs -text
