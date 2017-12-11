@@ -12,3 +12,4 @@
 /libunwindstack/tests/files/offline/straddle_arm32/libc.so filter=lfs diff=lfs merge=lfs -text
 /libunwindstack/tests/files/offline/straddle_arm64/libunwindstack_test filter=lfs diff=lfs merge=lfs -text
 /libbacktrace/testdata/arm/libandroid_runtime.so filter=lfs diff=lfs merge=lfs -text
+/libbacktrace/testdata/arm/libGLESv2_adreno.so filter=lfs diff=lfs merge=lfs -text
