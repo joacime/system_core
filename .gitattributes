@@ -15,3 +15,6 @@
 /libbacktrace/testdata/arm/libGLESv2_adreno.so filter=lfs diff=lfs merge=lfs -text
 /libunwindstack/tests/files/offline/gnu_debugdata_arm32/libandroid_runtime.so filter=lfs diff=lfs merge=lfs -text
 /libbacktrace/testdata/arm64/libskia.so filter=lfs diff=lfs merge=lfs -text
+/libunwindstack/tests/files/offline/jit_debug_x86_32/dalvikvm32 filter=lfs diff=lfs merge=lfs -text
+/libunwindstack/tests/files/offline/jit_debug_x86_32/libartd.so filter=lfs diff=lfs merge=lfs -text
+/libunwindstack/tests/files/offline/jit_debug_x86_32/libarttestd.so filter=lfs diff=lfs merge=lfs -text
