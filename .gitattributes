@@ -34,3 +34,4 @@
 /libunwindstack/tests/files/offline/art_quick_osr_stub_arm/libc.so filter=lfs diff=lfs merge=lfs -text
 /libunwindstack/tests/files/offline/jit_map_arm/libart.so filter=lfs diff=lfs merge=lfs -text
 /libunwindstack/tests/files/offline/jit_map_arm/libc.so filter=lfs diff=lfs merge=lfs -text
+/libprocinfo/testdata/maps filter=lfs diff=lfs merge=lfs -text
