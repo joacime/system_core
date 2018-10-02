@@ -39,3 +39,11 @@
 /libunwindstack/tests/files/offline/offset_arm/libunwindstack_test filter=lfs diff=lfs merge=lfs -text
 /libunwindstack/tests/files/offline/debug_frame_load_bias_arm/libbinder.so filter=lfs diff=lfs merge=lfs -text
 /libunwindstack/tests/files/offline/debug_frame_load_bias_arm/libc.so filter=lfs diff=lfs merge=lfs -text
+/libunwindstack/tests/files/offline/shared_lib_in_apk_arm64/ANGLEPrebuilt.apk filter=lfs diff=lfs merge=lfs -text
+/libunwindstack/tests/files/offline/shared_lib_in_apk_arm64/libc.so filter=lfs diff=lfs merge=lfs -text
+/libunwindstack/tests/files/offline/shared_lib_in_apk_arm64/linker64 filter=lfs diff=lfs merge=lfs -text
+/libunwindstack/tests/files/offline/shared_lib_in_apk_memory_only_arm64/lib_mem.data filter=lfs diff=lfs merge=lfs -text
+/libunwindstack/tests/files/offline/shared_lib_in_apk_memory_only_arm64/libc.so filter=lfs diff=lfs merge=lfs -text
+/libunwindstack/tests/files/offline/shared_lib_in_apk_memory_only_arm64/linker64 filter=lfs diff=lfs merge=lfs -text
+/libmeminfo/testdata1/vmallocinfo filter=lfs diff=lfs merge=lfs -text
+/libmeminfo/testdata1/smaps filter=lfs diff=lfs merge=lfs -text
