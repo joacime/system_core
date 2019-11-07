@@ -52,3 +52,11 @@
 /libunwindstack/tests/files/offline/load_bias_ro_rx_x86_64/libc.so filter=lfs diff=lfs merge=lfs -text
 /libunwindstack/tests/files/offline/load_bias_ro_rx_x86_64/perfetto_unittests filter=lfs diff=lfs merge=lfs -text
 /adb/fastdeploy/testdata/rotating_cube-release.apk filter=lfs diff=lfs merge=lfs -text
+/adb/fastdeploy/testdata/helloworld5.apk filter=lfs diff=lfs merge=lfs -text
+/adb/fastdeploy/testdata/helloworld7.apk filter=lfs diff=lfs merge=lfs -text
+/adb/fastdeploy/testdata/sample.apk filter=lfs diff=lfs merge=lfs -text
+/libunwindstack/tests/files/offline/load_bias_different_section_bias_arm64/libc.so filter=lfs diff=lfs merge=lfs -text
+/libunwindstack/tests/files/offline/load_bias_different_section_bias_arm64/linker64 filter=lfs diff=lfs merge=lfs -text
+/libunwindstack/tests/files/offline/load_bias_different_section_bias_arm64/test filter=lfs diff=lfs merge=lfs -text
+/libunwindstack/tests/files/offline/eh_frame_bias_x86/libc.so filter=lfs diff=lfs merge=lfs -text
+/libunwindstack/tests/files/offline/eh_frame_bias_x86/tombstoned filter=lfs diff=lfs merge=lfs -text
