@@ -65,3 +65,4 @@
 /libunwindstack/tests/files/offline/empty_arm64/libbinder.so filter=lfs diff=lfs merge=lfs -text
 /libunwindstack/tests/files/offline/empty_arm64/libc.so filter=lfs diff=lfs merge=lfs -text
 /libunwindstack/tests/files/offline/empty_arm64/netd filter=lfs diff=lfs merge=lfs -text
+/fs_mgr/libsnapshot/snapshot.cpp filter=lfs diff=lfs merge=lfs -text
