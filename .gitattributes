@@ -71,3 +71,7 @@
 /logd/doc_images/cpu_cuttlefish.png filter=lfs diff=lfs merge=lfs -text
 /logd/doc_images/memory_usage.png filter=lfs diff=lfs merge=lfs -text
 /logd/doc_images/total_log_count.png filter=lfs diff=lfs merge=lfs -text
+/libunwindstack/tests/files/offline/signal_fde_x86/libc.so filter=lfs diff=lfs merge=lfs -text
+/libunwindstack/tests/files/offline/signal_fde_x86/libunwindstack_test filter=lfs diff=lfs merge=lfs -text
+/libunwindstack/tests/files/offline/signal_fde_x86_64/libc.so filter=lfs diff=lfs merge=lfs -text
+/libunwindstack/tests/files/offline/signal_fde_x86_64/libunwindstack_test filter=lfs diff=lfs merge=lfs -text
